@@ -1,0 +1,13 @@
+name: "UBCO CSC Workshop Materials"
+output_dir: "./docs"
+navbar:
+  title: "UBCO CSC Workshop Materials"
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+exclude: ["*.ini", "*.txt", "*.html"]

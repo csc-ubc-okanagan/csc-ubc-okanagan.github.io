@@ -1,0 +1,12 @@
+---
+Title: "UBCO CSC Workshop Materials"
+pagetitle: "UBCO CSC Workshop Materials"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+---
+
+## UBCO CSC Workshop Materials
+
+Pending content...
