@@ -6,7 +6,24 @@ output:
     includes:
       in_header: header.html
 ---
+```{r, setup, include = F}
+knitr::opts_chunk$set(
+  echo = F,
+  warning = F,
+  message = F
+)
+```
+
 
 ## UBCO CSC Workshop Materials
 
-Pending content...
+```{r, workshops, results = 'asis'}
+workshops <- read.csv("files/workshops.csv", header = T)
+
+for (i in 1:nrow(workshops)) {
+  title <- workshops[i,1]
+  description <- workshops[i,2]
+  url <- workshops[i,3]
+  cat('<a href="',url,'" target = "balnk"><button class="landingPageButton"><h2>',title,'</h2><p>',description,'</p></button></a>')
+}
+```

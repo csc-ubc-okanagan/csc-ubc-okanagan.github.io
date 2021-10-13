@@ -1,3 +1,17 @@
+.landingPageButton {
+  border: 2px solid #8cacd4;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+  float: left;
+  background: transparent;
+  color: #2e4c6d;
+}
+
+.landingPageButton:hover p {
+  color: #8cacd4;
+}
+
 .note, .question {
   padding: 10px;
   margin: 20px 0px;
