@@ -13,8 +13,8 @@
 
 <title>UBCO CSC Workshop Materials</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -61,6 +61,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -237,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -263,33 +264,36 @@ $(document).ready(function () {
 </div>
 
 
-<div id="ubco-csc-workshop-materials" class="section level2">
-<h2>UBCO CSC Workshop Materials</h2>
-<a href=" https://csc-ubc-okanagan.github.io/R-Fundamentals/ " target = "balnk"><button class="landingPageButton">
+<div id="research-data-hub" class="section level1">
+<h1>Research Data Hub</h1>
+<div id="workshop-materials" class="section level2">
+<h2>Workshop Materials</h2>
+<a href=" https://csc-ubc-okanagan.github.io/R-for-beginners/ " target = "blank"><button class="landingPageButton">
 <h2>
-R Fundamentals
+R for Beginners
 </h2>
 <p>
-Never used R before? This workshop will introduce you to this popular programming and statistical analysis tool. We’ll start at the beginning with installing R and end with importing data sets. In between, we’ll cover things such as getting help from within R, basic data types and how to handle them, and running computations on your data. By the end of the workshop you should feel comfortable taking a self directed deeper dive into R to support your studies or research. Suitable for upper-level undergraduate students, graduate students, and post-doctoral fellows from all disciplines.
+This is an introductory workshop intended for individuals with little to
+no familiarity with R or similar tools that rely on a scripted
+environment. It is intended as a low barrier entry into the world of
+using your computer to engage with data outside of graphical tools like
+Excel or SPSS. We will not cover statistical analyses.
 </p>
 </button>
-</a><a href=" https://csc-ubc-okanagan.github.io/R-Fundamentals/ " target = "balnk"><button class="landingPageButton">
+</a><a href=" https://csc-ubc-okanagan.github.io/Python-for-beginners/ " target = "blank"><button class="landingPageButton">
 <h2>
-SPSS
+Python for Beginners
 </h2>
 <p>
-Introduction to SPSS Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-</button>
-</a><a href=" https://csc-ubc-okanagan.github.io/R-Fundamentals/ " target = "balnk"><button class="landingPageButton">
-<h2>
-Copyright
-</h2>
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+This is an introductory workshop intended for individuals with little to
+no familiarity with Python or similar tools that rely on a scripted
+environment. It is intended as a low barrier entry into the world of
+using your computer to engage with data outside of graphical tools like
+Excel or SPSS. We will not cover statistical analyses.
 </p>
 </button>
 <p></a></p>
+</div>
 </div>
 
 
