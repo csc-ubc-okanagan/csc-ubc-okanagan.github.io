@@ -1,3 +1,7 @@
-﻿Title,Description,url
-R for Beginners,This is an introductory workshop intended for individuals with little to no familiarity with R or similar tools that rely on a scripted environment. It is intended as a low barrier entry into the world of using your computer to engage with data outside of graphical tools like Excel or SPSS. We will not cover statistical analyses.,https://csc-ubc-okanagan.github.io/R-for-beginners/
-Python for Beginners,This is an introductory workshop intended for individuals with little to no familiarity with Python or similar tools that rely on a scripted environment. It is intended as a low barrier entry into the world of using your computer to engage with data outside of graphical tools like Excel or SPSS. We will not cover statistical analyses.,https://csc-ubc-okanagan.github.io/Python-for-beginners/
+﻿Title,Series,Description,url
+R for Beginners,Data,This series of introductory workshops are intended for individuals with little to no familiarity with R or similar tools that rely on a scripted environment. They are intended as a low barrier entry into the world of using your computer to engage with data outside of graphical tools like Excel or SPSS.,https://csc-ubc-okanagan.github.io/R-for-beginners/
+Python for Beginners,Data,This series of introductory workshops are intended for individuals with little to no familiarity with Python or similar tools that rely on a scripted environment. They are intended as a low barrier entry into the world of using your computer to engage with data outside of graphical tools like Excel or SPSS.,https://csc-ubc-okanagan.github.io/Python-for-beginners/
+Research Data Management,Nick's Name,TBD,https://csc-ubc-okanagan.github.io/
+Introduction to the Unix Shell,Nick's Name,TBD,https://csc-ubc-okanagan.github.io/
+Introduction to GitHub,Nick's Name,TBD,https://csc-ubc-okanagan.github.io/
+Introduction to GitHub Pages,Nick's Name,TBD,https://csc-ubc-okanagan.github.io/

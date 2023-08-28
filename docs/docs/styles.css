@@ -1,0 +1,101 @@
+.landingPageButton {
+  border: 2px solid #8cacd4;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+  float: left;
+  background: transparent;
+  color: #2e4c6d;
+}
+
+.landingPageButton:hover p {
+  color: #8cacd4;
+}
+
+.note, .question {
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.note {
+  border: 1pt solid #0d4a7b;
+  background-color: #f0f7fd;
+}
+
+.question {
+  border: 1pt solid #1f7b0d;
+  background-color: #f1fdf0;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+.section h1 {
+  margin-bottom: 75px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2, h3 {
+  margin-top: 0px;
+}
+
+#BannerContainer {
+  background-color: #fff;
+}
+
+#CSCBanner {
+  width: 30% !important;
+  min-width: 500px !important;
+  display: block;
+  margin: auto;
+  padding: 30px 0px 20px 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #8cacd4 !important;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:active {
+  color: #ffffff !important;
+}
+
+.navbar a:hover {
+  color: #8cacd4 !important;
+}
+
+#header {
+    padding-top: 30px !important;
+}
+
+.dropdown-menu {
+  background-color: #2e4c6d !important;
+}
+
+.active {
+  background-color: #2e4c6d !important;
+}
+
+.active > a, .open > a {
+  background-color: #8cacd4 !important;
+}
+
+.navbar .active a:hover, .navbar .open a:hover {
+  color: #ffffff !important;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #8cacd4 !important;
+}
+
+.navbar-default {
+  background-color: #2e4c6d !important;
+}
+
+.figure p {
+  display: none;
+}
