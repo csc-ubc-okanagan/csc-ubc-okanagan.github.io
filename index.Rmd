@@ -1,6 +1,6 @@
 ---
-Title: "UBCO CSC Workshop Materials"
-pagetitle: "UBCO CSC Workshop Materials"
+Title: "UBCO Research Data Hub"
+pagetitle: "UBCO Research Data Hub"
 output:
   html_document:
     includes:
@@ -13,9 +13,6 @@ knitr::opts_chunk$set(
   message = F
 )
 ```
-
-
-# Research Data Hub
 
 ## Data Consultations
 

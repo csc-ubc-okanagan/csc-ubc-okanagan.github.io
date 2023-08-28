@@ -42,6 +42,10 @@ h2, h3 {
   margin-top: 0px;
 }
 
+.section h2 {
+  margin-top: -25px;
+}
+
 h3 {
   font-size: 18px;
   color: #8cacd4;

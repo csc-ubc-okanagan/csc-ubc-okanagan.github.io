@@ -1,7 +1,7 @@
-name: "UBCO CSC Workshop Materials"
+name: "UBCO Research Data Hub"
 output_dir: "docs"
 navbar:
-  title: "UBCO CSC Workshop Materials"
+  title: "UBCO Research Data Hub"
 
 output:
   html_document:
