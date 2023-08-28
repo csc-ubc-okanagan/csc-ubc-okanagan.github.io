@@ -47,6 +47,16 @@ h3 {
   color: #8cacd4;
 }
 
+td, th {
+  vertical-align: top;
+  padding: 5px;
+}
+
+th {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
 #BannerContainer {
   background-color: #fff;
 }
