@@ -30,6 +30,8 @@ The blog posts here were created by Research Data Consultants. If you find yours
 
 Workshop materials are available at https://csc-ubc-okanagan.github.io/workshops/
 
+Workshop schedule and registration can be found at https://csc.ok.ubc.ca/workshops/
+
 ```{r, workshops, results = 'asis'}
 workshops <- read.csv("files/workshops.csv", header = T)
 cat('<table><tbody><tr><th>Title</th><th>Series</th><th>Description</th></tr>')
