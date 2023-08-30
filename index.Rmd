@@ -26,7 +26,9 @@ The [R & Python Blog](https://csc-ubc-okanagan.github.io/R-Python-Blog/) address
 
 The blog posts here were created by Research Data Consultants. If you find yourself with a question that has not been answered by the blog posts currently available, feel free to reach out to schedule a one-on-one consultation.
 
-## Workshop Materials
+## Workshops
+
+Workshop materials are available at https://csc-ubc-okanagan.github.io/workshops/
 
 ```{r, workshops, results = 'asis'}
 workshops <- read.csv("files/workshops.csv", header = T)
@@ -36,7 +38,7 @@ for (i in 1:nrow(workshops)) {
   series <- workshops[i,2]
   description <- workshops[i,3]
   url <- workshops[i,4]
-  cat('<tr><td><a href="',url,'" target = "blank">',title,'</a></td><td>',series,'</td><td>',description,'</td></tr>')
+  cat('<tr><td>',title,'</td><td>',series,'</td><td>',description,'</td></tr>')
 }
 cat('</tbody></table>')
 ```
