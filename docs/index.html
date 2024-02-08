@@ -288,113 +288,25 @@ one-on-one consultation.</p>
 </div>
 <div id="workshops" class="section level2">
 <h2>Workshops</h2>
-<p>Workshop materials are available at <a
+<p>Workshop listings and materials are available at <a
 href="https://csc-ubc-okanagan.github.io/workshops/"
 class="uri">https://csc-ubc-okanagan.github.io/workshops/</a></p>
 <p>Workshop schedule and registration can be found at <a
 href="https://csc.ok.ubc.ca/workshops/"
 class="uri">https://csc.ok.ubc.ca/workshops/</a></p>
-<table>
-<tbody>
-<tr>
-<th>
-Title
-</th>
-<th>
-Series
-</th>
-<th>
-Description
-</th>
-</tr>
-<tr>
-<td>
-Learning R
-</td>
-<td>
-Data
-</td>
-<td>
-A series of introductory workshops intended for individuals with little
-to no familiarity with R or similar tools that rely on a scripted
-environment. Working through a common data science pipeline, we look at
-importing, exploring, filtering and visualizing research data. We also
-explore fundamental concepts in programming that relate to statistical
-computing, such as iterating over data with loops and building
-conditional statements. Intended as a low barrier entry into the world
-of using your computer to engage with data outside of graphical tools
-like Excel or SPSS.
-</td>
-</tr>
-<tr>
-<td>
-Python for Data Analysis
-</td>
-<td>
-Data
-</td>
-<td>
-A series of introductory workshops intended for individuals with little
-to no familiarity with Python or similar tools that rely on a scripted
-environment. Working through a common data science pipeline, we look at
-importing, exploring, filtering and visualizing research data. We also
-explore fundamental concepts in programming that relate to statistical
-computing, such as iterating over data with loops and building
-conditional statements. Intended as a low barrier entry into the world
-of using your computer to engage with data outside of graphical tools
-like Excel or SPSS.
-</td>
-</tr>
-<tr>
-<td>
-Research Data Management
-</td>
-<td>
-Researcher Toolkit
-</td>
-<td>
-A two-part workshop on Research Data Managment covering best practices
-in file naming, file format selection, managing back ups and addressing
-deposit. Part of the larger Researcher Toolkit series, which aims to
-introduce participants to a variety of research tools and concepts, and
-build core competencies applicable across the research lifecycle.
-</td>
-</tr>
-<tr>
-<td>
-Introduction to the shell
-</td>
-<td>
-Researcher Toolkit
-</td>
-<td>
-A two-part series on the shell, introducing interacting through a
-terminal, and basic shell commands, such as navigating through
-directories, moving, deleting, reading files, etc. Part of the larger
-Researcher Toolkit series, which aims to introduce participants to a
-variety of research tools and concepts, and build core competencies
-applicable across the research lifecycle.
-</td>
-</tr>
-<tr>
-<td>
-Introduction to Git, GitHub, and GitHub Pages
-</td>
-<td>
-Researcher Toolkit
-</td>
-<td>
-A three-part series on Git, GitHub, and GitHub pages. Start by exploring
-file versioning with Git, then connect to a remote repository for back
-up and collaborative editing, and finally publish a simple, static
-website to share your work. Part of the larger Researcher Toolkit
-series, which aims to introduce participants to a variety of research
-tools and concepts, and build core competencies applicable across the
-research lifecycle.
-</td>
-</tr>
-</tbody>
-</table>
+<!-- I removed the listing below as it seemed redundant, but am keeping a record... -->
+<!-- # ```{r, workshops, results = 'asis'} -->
+<!-- # workshops <- read.csv("files/workshops.csv", header = T) -->
+<!-- # cat('<table><tbody><tr><th>Title</th><th>Series</th><th>Description</th></tr>') -->
+<!-- # for (i in 1:nrow(workshops)) { -->
+<!-- #   title <- workshops[i,1] -->
+<!-- #   series <- workshops[i,2] -->
+<!-- #   description <- workshops[i,3] -->
+<!-- #   url <- workshops[i,4] -->
+<!-- #   cat('<tr><td>',title,'</td><td>',series,'</td><td>',description,'</td></tr>') -->
+<!-- # } -->
+<!-- # cat('</tbody></table>') -->
+<!-- # ``` -->
 </div>
 
 

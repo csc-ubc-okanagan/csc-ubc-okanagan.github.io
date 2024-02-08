@@ -28,19 +28,20 @@ The blog posts here were created by Research Data Consultants. If you find yours
 
 ## Workshops
 
-Workshop materials are available at https://csc-ubc-okanagan.github.io/workshops/
+Workshop listings and materials are available at https://csc-ubc-okanagan.github.io/workshops/
 
 Workshop schedule and registration can be found at https://csc.ok.ubc.ca/workshops/
 
-```{r, workshops, results = 'asis'}
-workshops <- read.csv("files/workshops.csv", header = T)
-cat('<table><tbody><tr><th>Title</th><th>Series</th><th>Description</th></tr>')
-for (i in 1:nrow(workshops)) {
-  title <- workshops[i,1]
-  series <- workshops[i,2]
-  description <- workshops[i,3]
-  url <- workshops[i,4]
-  cat('<tr><td>',title,'</td><td>',series,'</td><td>',description,'</td></tr>')
-}
-cat('</tbody></table>')
-```
+<!-- I removed the listing below as it seemed redundant, but am keeping a record... -->
+<!-- # ```{r, workshops, results = 'asis'} -->
+<!-- # workshops <- read.csv("files/workshops.csv", header = T) -->
+<!-- # cat('<table><tbody><tr><th>Title</th><th>Series</th><th>Description</th></tr>') -->
+<!-- # for (i in 1:nrow(workshops)) { -->
+<!-- #   title <- workshops[i,1] -->
+<!-- #   series <- workshops[i,2] -->
+<!-- #   description <- workshops[i,3] -->
+<!-- #   url <- workshops[i,4] -->
+<!-- #   cat('<tr><td>',title,'</td><td>',series,'</td><td>',description,'</td></tr>') -->
+<!-- # } -->
+<!-- # cat('</tbody></table>') -->
+<!-- # ``` -->
