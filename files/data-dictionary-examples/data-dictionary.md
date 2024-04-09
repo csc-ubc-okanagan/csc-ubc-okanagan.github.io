@@ -1,4 +1,4 @@
-Number of columns (variables): 20
+Number of columns (variables): 20  
 Number of rows (observations): 100
 
 Variable 1
