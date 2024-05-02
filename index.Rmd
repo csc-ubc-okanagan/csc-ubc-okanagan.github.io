@@ -13,24 +13,28 @@ knitr::opts_chunk$set(
   message = F
 )
 ```
+## Workshops
 
-## Data Consultations
+All workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.  Individual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 monutes for follow up if needed.  Each workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.
 
-Our staff specialize in a variety of approaches for working with research data including Python, R, etc. for data visualization, modelling, statistical analysis, and many other topics related to preparing and analyzing research data from a broad spectrum of disciplines. Drop-in and bookable consultations available to those with all levels of experience.
+All workshop listings and materials can be found [here](https://csc-ubc-okanagan.github.io/workshops/)
 
-To learn more and book a consult, visit: https://csc.ok.ubc.ca/consultations/research-data-consultation/
+Workshop schedule and registration can be found [here](https://csc.ok.ubc.ca/workshops/)
 
 ## R & Python Blog
 
-The [R & Python Blog](https://csc-ubc-okanagan.github.io/R-Python-Blog/) addresses common data issues and data analysis tasks.
+If you are looking for a quick answer to a specific question regarding R and Python, our R & Python Blog addresses common data issues and data analysis tasks in bite size, question-informed bits. If you find yourself with a question that has not been answered by the blog posts currently available, we encourage you to book a consultation with our Data Consultants.
 
-The blog posts here were created by Research Data Consultants. If you find yourself with a question that has not been answered by the blog posts currently available, feel free to reach out to schedule a one-on-one consultation.
+The R & Python Blog posts can be found [here](https://csc-ubc-okanagan.github.io/R-Python-Blog/) 
 
-## Workshops
+## Data Consultations
 
-Workshop listings and materials are available at https://csc-ubc-okanagan.github.io/workshops/
+Once you have developed competency with the workshop materials, it's possible that you have questions about how to apply the generic concepts covered in those sessions to the specific aspects of your research project.  To accomodate this, we have free one-on-one bookable sessions with our Data Consultants, that specialize in a variety of approaches for working with research data including Python, R, etc. for data visualization, modelling, statistical analysis, and many other topics related to preparing and analyzing research data from a broad spectrum of disciplines. Consultations are available to those with all levels of experience, but we do ask that you familiarize yourself with the workshop content prior to booking, as these sessions are meant to move a step beyond this content.
 
-Workshop schedule and registration can be found at https://csc.ok.ubc.ca/workshops/
+To learn more and book a consult [here](visit: https://csc.ok.ubc.ca/consultations/research-data-consultation/)
+
+
+
 
 <!-- I removed the listing below as it seemed redundant, but am keeping a record... -->
 <!-- # ```{r, workshops, results = 'asis'} -->
