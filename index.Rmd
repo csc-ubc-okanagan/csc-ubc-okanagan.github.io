@@ -15,17 +15,17 @@ knitr::opts_chunk$set(
 ```
 ## Workshops
 
-All workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.  Individual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 monutes for follow up if needed.  Each workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.
+All workshops are series based, beginning at the introductory level for those with absolutely no experience, and building up to more advanced concepts.  Individual workshops are scheduled for roughly 1 hour, with 30 minutes of instructor led content, 15 minutes for Q&A related to the content, and 15 minutes for follow up if needed.  Each workshop has its own webpage with the full content of the session, with the intention of having resources for people to revisit after a session, as well as to self-instruct.
 
 All workshop listings and materials can be found [here](https://csc-ubc-okanagan.github.io/workshops/)
 
 Workshop schedule and registration can be found [here](https://csc.ok.ubc.ca/workshops/)
 
-## R & Python Blog
+## Data Blog
 
-If you are looking for a quick answer to a specific question regarding R and Python, our R & Python Blog addresses common data issues and data analysis tasks in bite size, question-informed bits. If you find yourself with a question that has not been answered by the blog posts currently available, we encourage you to book a consultation with our Data Consultants.
+If you are looking for a quick answer to a specific question, our Data Blog addresses common data issues and data analysis tasks in bite size, question-informed bits. If you find yourself with a question that has not been answered by the blog posts currently available, we encourage you to book a consultation with our Data Consultants.
 
-The R & Python Blog posts can be found [here](https://csc-ubc-okanagan.github.io/R-Python-Blog/) 
+The Data Blog posts can be found [here](https://csc-ubc-okanagan.github.io/csc-data-blog/) 
 
 ## Data Consultations
 
