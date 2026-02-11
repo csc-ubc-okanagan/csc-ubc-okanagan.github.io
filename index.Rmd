@@ -31,4 +31,4 @@ The Data Blog posts can be found [here](https://csc-ubc-okanagan.github.io/csc-d
 
 Once you have developed competency with the workshop materials, it's possible that you have questions about how to apply the generic concepts covered in those sessions to the specific aspects of your research project.  To accomodate this, we have free one-on-one bookable sessions with our Data Consultants, that specialize in a variety of approaches for working with research data including Python, R, etc. for data visualization, modelling, statistical analysis, and many other topics related to preparing and analyzing research data from a broad spectrum of disciplines. Consultations are available to those with all levels of experience, but we do ask that you familiarize yourself with the workshop content prior to booking, as these sessions are meant to move a step beyond this content.
 
-To learn more and book a consult [here](visit: https://csc.ok.ubc.ca/consultations/research-data-consultation/)
+To learn more and book a consult visit [here](https://csc.ok.ubc.ca/consultations/research-data-consultation/).
